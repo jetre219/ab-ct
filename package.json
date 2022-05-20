@@ -1,0 +1,27 @@
+{
+  "name": "abbeal-technical-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jeffrey Tremblay <jeffrey.tremblay26@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint"
+  },
+  "devDependencies": {
+    "@babel/core": "7.17.12",
+    "@babel/preset-env": "7.17.12",
+    "babel-jest": "28.1.0",
+    "eslint": "8.2.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-jest": "26.2.2",
+    "jest": "28.1.0"
+  },
+  "jest": {
+    "transform": {
+      "\\.[jt]sx?$": "babel-jest"
+    }
+  }
+}
